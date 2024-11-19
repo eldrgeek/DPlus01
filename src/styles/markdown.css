@@ -1,0 +1,70 @@
+.message-markdown {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+}
+
+.message-markdown code {
+  background-color: #2f3136;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 85%;
+}
+
+.message-markdown pre {
+  background-color: #2f3136;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.message-markdown pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.message-markdown blockquote {
+  border-left: 4px solid #4f545c;
+  margin: 0;
+  padding-left: 1em;
+  color: #b9bbbe;
+}
+
+.message-markdown a {
+  color: #00b0f4;
+  text-decoration: none;
+}
+
+.message-markdown a:hover {
+  text-decoration: underline;
+}
+
+.message-markdown .channel-mention {
+  color: #7289da;
+  background-color: rgba(114,137,218,0.1);
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.message-markdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+.message-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.message-markdown th,
+.message-markdown td {
+  border: 1px solid #4f545c;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.message-markdown th {
+  background-color: #2f3136;
+} 

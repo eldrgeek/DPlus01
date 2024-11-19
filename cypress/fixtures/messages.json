@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "content": "Test message 1",
+    "author": {
+      "username": "testuser1"
+    },
+    "createdAt": "2023-01-01T00:00:00.000Z",
+    "reactions": []
+  },
+  {
+    "id": "2",
+    "content": "Test message 2",
+    "author": {
+      "username": "testuser2"
+    },
+    "createdAt": "2023-01-01T00:00:01.000Z",
+    "reactions": []
+  }
+] 
